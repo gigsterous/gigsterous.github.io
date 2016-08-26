@@ -11,7 +11,12 @@ permalink: /about/
 We are two recent graduates of [Czech Technical University in Prague](http://www.fel.cvut.cz/en/) and big music enthusiasts. We believe we can help musicians connect through modern technology so that they can focus on their performance, rather than struggling to find their next gig.
 
 ### Martin
+
+TBD
+
 ### Michal
+
+TBD
 
 ## Blog Engine
 
