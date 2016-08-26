@@ -4,12 +4,23 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Gigsterous
 
-You can find the source code for the Jekyll new theme at:
+## Team
+
+We are two recent graduates of [Czech Technical University in Prague](http://www.fel.cvut.cz/en/) and big music enthusiasts. We believe we can help musicians connect through modern technology so that they can focus on their performance, rather than struggling to find their next gig.
+
+### Martin
+### Michal
+
+## Blog Engine
+
+The blog runs on Jekyll, which you can find at
+{% include icon-github.html username="jekyll" %} /
+[jekyll](https://github.com/jekyll/jekyll)
+
+The theme is a base Jekyll theme called minima. You can find the source code for it at:
 {% include icon-github.html username="jekyll" %} /
 [minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+
