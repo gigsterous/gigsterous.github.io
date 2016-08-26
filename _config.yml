@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Gigsterous blog
-email: gigsterous@gmail.com
+#email: gigsterous@gmail.com
 description: >
   Blog written as Gigsterous application is being built. Mostly engineering stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
