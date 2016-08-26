@@ -2,5 +2,5 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproofer ./_site --href-ignore "#"
+bundle exec htmlproofer ./_site --url-ignore "/#.*/"
 
