@@ -40,7 +40,7 @@ In fact this is nothing unusual as most CI tools require these in order to funct
 
 Once you've signed in, you can see all your repositories and organizations. Find your repository and click the switch where you want to allow Travis to operate.
 
-![Repositories](/assets/2016-09-01-travis-ios/repositories.png)
+![Repositories](/assets/2016-09-13-travis-ios/repositories.png)
 
 When you've done that, click the [gear icon](https://github.com/jekyll/jekyll/pull/5294) to proceed to settings. I personally prefer to turn on the option *Build only if .travis.yml is present*. I don't want it to do anything before I've told it exactly what to do (.travis.yml is the "recipe" for Travis). Otherwise Jekyll starts a default image and build recipe which may be totally useless anyway. That's pretty much it for now regarding the website. Don't close it yet, just leave the tab open - we'll come back to it in a minute.
 
@@ -48,7 +48,7 @@ When you've done that, click the [gear icon](https://github.com/jekyll/jekyll/pu
 
 In case you ever feel like revoking the access for Travis, simply go to *Profile > Settings > OAuth applications* and there you'll find the whole list of all authorized applications.
 
-![Revoking access](/assets/2016-09-01-travis-ios/revoke.png)
+![Revoking access](/assets/2016-09-13-travis-ios/revoke.png)
 
 We're not here to **revoke** access, but rather to **grant** it! I do feel obliged to tell you though, in order for this tutorial to really be complete.
 
@@ -98,11 +98,11 @@ end
 
 This part of the tutorial was the one that was somehow kept secret from me and why I wasn't able to build the project on Travis. Whenever you want to have a project be automatically built along with CP dependencies, you have to add them to the scheme. Scheme? What? No worries, I got you covered. To find schemes of your app go to *Product > Scheme > Manage Schemes...*:
 
-![Manage schemes](/assets/2016-09-01-travis-ios/manage_schemes.png)
+![Manage schemes](/assets/2016-09-13-travis-ios/manage_schemes.png)
 
 Make sure the scheme is **Shared**, then mark it and hit the *Edit...* button. From there, select the **Build** option in the left pane. You may notice that in the Targets section in the middle pane something is missing - YES, none of the Pods are there. So go ahead, hit the left bottom plus button and add all your Pods to the build scheme. Then, grab all pod-related targets and move them **to the top** of the list. You should end up with something very similar to this:
 
-![Build targets](/assets/2016-09-01-travis-ios/build_targets.png)
+![Build targets](/assets/2016-09-13-travis-ios/build_targets.png)
 
 **Travis YAML file**
 
