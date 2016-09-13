@@ -147,13 +147,3 @@ And that should do it! Feel free to adjust/delete/add anything and add it to you
 That's it for today! I hope this post helped you with your first Travis setup. I'm almost 100% sure we went through every step in order to be successful with Travis. If something doesn't sound right or if you have any questions, feel free to drop me a tweet!
 
 [![Twitter](https://img.shields.io/badge/twitter-@miguelitinho-blue.svg?style=flat)](http://twitter.com/miguelitinho)
-
----
-
-<br />
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
-</a>
-
-##### **This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)**
-
