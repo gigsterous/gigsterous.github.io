@@ -34,7 +34,7 @@ First, you have to register on the [Travis CI website](https://travis-ci.org/). 
 4. Access user email addresses (read-only)
 5. Write repository hooks
 
-In fact this is nothing unusual and pretty much fits in to all requirements for a CI tool. You can read more about [third-party access here](https://help.github.com/articles/about-third-party-application-restrictions/). Little side note - to be able to allow Travis in an organizational repo, you have to be the Owner (have full access rights in the organization).
+In fact this is nothing unusual as most CI tools require these in order to function properly. You can read more about [third-party access here](https://help.github.com/articles/about-third-party-application-restrictions/). Little side note - to be able to allow Travis in an organizational repo, you have to be the Owner (have full access rights in the organization).
 
 **Travis project setup**
 
@@ -134,9 +134,9 @@ script:
 
 It can get waaaay more complicated, but this one works for us for now. Let's break it down block by block:
 
-1. The top always includes the top level specification - language and platform. In our case it's objective-c/swift and xcode7.3 environment. Xcode 8 is currently in beta in Travis, but as soon as it's live, we'll switch over as well.
+1. The top always includes the top level specification - language and platform. In our case it's an objective-c/swift and xcode7.3 environment. Xcode 8 is currently in beta in Travis, but as soon as it's live, we'll switch over as well.
 2. Next you define which branches you want Travis to build (including incoming pull requests). As you may have noticed, we are using the full [gitflow](http://nvie.com/posts/a-successful-git-branching-model/).
-3. Optionally you can specify extra requirements for your environment. I personally prefer when the image is clean UTF-8 environment.
+3. Optionally you can specify extra requirements for your environment. I personally prefer when the image is a clean UTF-8 environment.
 4. Many things can happen before the actual build. In our case, we make sure we have the right version of Ruby in order to have CocoaPods 1.0 fully functional and we also install a great formatting tool called [xcpretty](https://github.com/supermarin/xcpretty) to make the logs coming out of xcodebuild a bit more readable.
 5. And at the very end is the script - nothing fancy, sets the pipefail, calls the build and then performs lint check to make sure our code is not only running well, but also in a good condition.
 
