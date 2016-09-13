@@ -22,6 +22,7 @@ description: >
 baseurl: ""
 url: "https://gigsterous.github.io"
 github_username: gigsterous
+google_analytics: UA-83738456-1
 
 # Build settings
 markdown: kramdown
