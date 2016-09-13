@@ -21,7 +21,7 @@ description: >
   Blog written as Gigsterous application is being built. Mostly engineering stuff.
 baseurl: ""
 url: "https://gigsterous.github.io"
-github_username:  gigsterous
+github_username: gigsterous
 google_analytics: UA-83738456-1
 
 # Build settings
