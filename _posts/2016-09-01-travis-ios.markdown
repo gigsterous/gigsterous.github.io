@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Travis CI for iOS projects"
-date: 2016-09-01 09:00:00
+date: 2016-09-13 19:00:00
+author: Michal
 categories: engineering
 tags:
-  - Michal
   - iOS
   - CocoaPods
   - Continuous Integration
