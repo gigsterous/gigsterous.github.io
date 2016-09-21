@@ -64,7 +64,7 @@ We are two recent graduates of [Czech Technical University in Prague](http://www
 <div id="alignment">
 <p>Software engineer by day, bass player by night. Currently I focus on Java related technologies and am trying to build the REST API.</p>
 
-<img src="/assets/about/martin.png"/>
+<img src="/assets/about/martin.png" alt="Martin" />
 </div>
 
 ### Michal
@@ -72,7 +72,7 @@ We are two recent graduates of [Czech Technical University in Prague](http://www
 <div id="alignment">
 <p>I've got mad skillz in violin, iOS and Java. Right now, I'm all about that app and making sure it's perfect for a musician just like me.</p>
 
-<img src="/assets/about/michal.png"/>
+<img src="/assets/about/michal.png" alt="Michal"/>
 </div>
 
 ## Blog Engine
