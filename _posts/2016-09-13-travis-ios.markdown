@@ -3,6 +3,7 @@ layout: post
 title: "Travis CI for iOS projects"
 date: 2016-09-13 19:00:00 +0200
 author: Michal
+description: In this post we'll cover basic setup of Travis CI and iOS project with CocoaPods hosted on GitHub.
 categories: engineering
 tags:
   - iOS

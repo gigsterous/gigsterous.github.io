@@ -3,6 +3,7 @@ layout: post
 title: "Spring Boot REST API (2) - JPA relationships"
 date: 2016-09-25 19:00:00 +0200
 author: Martin
+description: This is a second post in a series about writing REST API in Spring. This post focuses on JPA and basic entity exposing via REST API.
 categories: engineering
 tags:
   - Spring-Boot

@@ -3,6 +3,7 @@ layout: post
 title: "Spring Boot REST API (1) - Project setup"
 date: 2016-09-14 19:00:00 +0200
 author: Martin
+description: This is a first post in a series about writing REST API in Spring. This post focuses on the very first project setup.
 categories: engineering
 tags:
   - Spring-Boot
