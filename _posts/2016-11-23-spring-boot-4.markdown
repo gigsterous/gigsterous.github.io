@@ -14,7 +14,7 @@ tags:
 
 In this post, we will continue with development of our simple REST API. This time, the focus will be on security. It is not an uncommon scenario that certain resources (or all of them) need to be protected and accessible only by registered users. There are multiple ways how to secure REST APIs and we cannot say that one is better than the other - it all depends on what we are trying to achieve.
 
-[OAuth2](https://oauth.net/2/) is a protocol (or authorization framework, as I prefer to refer to it) that describes a **stateless** authorization (that means we don't need to maintain sessions between clients and our server). Before we jump to code examples, let me briefly explain how OAuth2 works. I will not go into exhaustive details since this has been already described [elsewhere](http://tutorials.jenkov.com/oauth2/index.html).
+[OAuth2](https://oauth.net/2/) is a protocol (or authorization framework, as I prefer to refer to it) that describes a **stateless** authorization (that means we don't need to maintain sessions between clients and our server). Before we jump to code examples, let me briefly explain how OAuth2 works. I will not go into exhaustive details since this has been already described [elsewhere](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
 
 This protocol allows third party clients to access protected resources on behalf of the resource owner. There are four basic roles in OAuth2:
 * **Resource owner** - the owner of the resource - this is pretty self-explanatory :-)
