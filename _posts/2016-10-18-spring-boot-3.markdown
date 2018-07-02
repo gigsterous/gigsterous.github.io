@@ -12,6 +12,12 @@ tags:
   - Testing
 ---
 
+> Have you heard? 📣 We released a full-feature implemented auth server built on Spring-Boot 2.
+> State-of-the-art OAuth2 provider and on top of that - fully open sourced! 🎉🛠
+>
+> Go check out the [blog post](https://gigsterous.github.io/engineering/2018/06/29/auth-server-example.html) and then [the repository](https://github.com/gigsterous/auth-server) as well!
+> Happy hacking! 💻
+
 We have already learned how to set up a [simple REST API in Spring Boot]({% post_url 2016-09-14-spring-boot-1 %}) and create a [relational model of our entities]({% post_url 2016-09-25-spring-boot-2 %}). This time, we will take a look at how to write unit tests for all layers in our application.
 
 Spring Boot provides many useful annotations and tools for testing. Things have got significantly easier [starting in Spring Boot 1.4](https://spring.io/blog/2016/04/15/testing-improvements-in-spring-boot-1-4). We already have `spring-boot-starter-test` dependency in our project, so if you don't simply include this in your `pom.xml`:

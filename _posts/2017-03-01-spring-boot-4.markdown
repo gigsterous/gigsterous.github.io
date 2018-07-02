@@ -12,6 +12,12 @@ tags:
   - Security
 ---
 
+> Have you heard? 📣 We released a full-feature implemented auth server built on Spring-Boot 2.
+> State-of-the-art OAuth2 provider and on top of that - fully open sourced! 🎉🛠
+>
+> Go check out the [blog post](https://gigsterous.github.io/engineering/2018/06/29/auth-server-example.html) and then [the repository](https://github.com/gigsterous/auth-server) as well!
+> Happy hacking! 💻
+
 In this post, we will continue with development of our simple REST API. This time, the focus will be on security. It is not an uncommon scenario that certain resources (or all of them) need to be protected and accessible only by registered users. There are multiple ways how to secure REST APIs and we cannot say that one is better than the other - it all depends on what we are trying to achieve.
 
 [OAuth2](https://oauth.net/2/) is a protocol (or authorization framework, as I prefer to refer to it) that describes a **stateless** authorization (that means we don't need to maintain sessions between clients and our server). Before we jump to code examples, let me briefly explain how OAuth2 works. I will not go into exhaustive details since this has been already described [elsewhere](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).

@@ -11,6 +11,12 @@ tags:
   - REST
 ---
 
+> Have you heard? 📣 We released a full-feature implemented auth server built on Spring-Boot 2.
+> State-of-the-art OAuth2 provider and on top of that - fully open sourced! 🎉🛠
+>
+> Go check out the [blog post](https://gigsterous.github.io/engineering/2018/06/29/auth-server-example.html) and then [the repository](https://github.com/gigsterous/auth-server) as well!
+> Happy hacking! 💻
+
 This is the first part of my series on building a REST API with [Spring Boot](http://projects.spring.io/spring-boot/). Although there are many tutorials on this manner on the internet, my goal is to provide a step-by-step guide for designing the web application from scratch and gradually add more functionality to it in the next parts of this series.
 
 In this tutorial, we are going to start simple and create a small Spring Boot app exposing one entity over REST. We will also setup a test environment with in-memory database to prepopulate our API with some data.

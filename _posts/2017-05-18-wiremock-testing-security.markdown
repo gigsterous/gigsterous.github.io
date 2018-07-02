@@ -12,6 +12,12 @@ tags:
   - Wiremock
 ---
 
+> Have you heard? 📣 We released a full-feature implemented auth server built on Spring-Boot 2.
+> State-of-the-art OAuth2 provider and on top of that - fully open sourced! 🎉🛠
+>
+> Go check out the [blog post](https://gigsterous.github.io/engineering/2018/06/29/auth-server-example.html) and then [the repository](https://github.com/gigsterous/auth-server) as well!
+> Happy hacking! 💻
+
 Recently, I was working with a couple of Spring Boot services that authenticate against a separate auth server using `spring-security-oauth2` package. All that is needed to hook the services to the server is placing `security.oauth2.resource.userInfoUri=http://localhost:8080/principal` in the `application.properties` and annotating one of the configuration classes with `@EnableResourceServer`. That's it - now everytime someone makes a request to your service, a request will be made to the auth server which will check the validity of the Bearer token and return a principal with user information from the specified endpoint.
 
 The challenging part was writing the integration tests (starting with the controller layer and all the filters before including security).

@@ -11,6 +11,12 @@ tags:
   - Spring Data REST
 ---
 
+> Have you heard? 📣 We released a full-feature implemented auth server built on Spring-Boot 2.
+> State-of-the-art OAuth2 provider and on top of that - fully open sourced! 🎉🛠
+>
+> Go check out the [blog post](https://gigsterous.github.io/engineering/2018/06/29/auth-server-example.html) and then [the repository](https://github.com/gigsterous/auth-server) as well!
+> Happy hacking! 💻
+
 Using [Spring Data REST](https://projects.spring.io/spring-data-rest/) can get your API up and running in minutes and save you tons of work and coding...until you have a special use-case requiring you to spend a whole afternoon crawling the web for how to achieve that one missing piece of functionality.
 
 In this post, I would like to share with you how to use [projections](https://docs.spring.io/spring-data/rest/docs/current/reference/html/#projections-excerpts). My use-case was quite simple: 

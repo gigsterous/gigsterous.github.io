@@ -11,6 +11,12 @@ tags:
   - REST
 ---
 
+> Have you heard? 📣 We released a full-feature implemented auth server built on Spring-Boot 2.
+> State-of-the-art OAuth2 provider and on top of that - fully open sourced! 🎉🛠
+>
+> Go check out the [blog post](https://gigsterous.github.io/engineering/2018/06/29/auth-server-example.html) and then [the repository](https://github.com/gigsterous/auth-server) as well!
+> Happy hacking! 💻
+
 In the [previous part]({% post_url 2016-09-14-spring-boot-1 %}) of this series, we created a tiny API in Spring Boot which exposes *people* entities over REST. There are usually many resources with (sometimes quite complicated) relationships between each other in a typical web application. In this part, we are going to examine how such relationships can be easily implemented in Spring Boot and Hibernate.
 
 We are going to continue with the project we created last time. If you do not have it and would like to follow this tutorial, you can download it [here](https://github.com/gigsterous/gigy-example/releases/tag/v1) or get the [final result](https://github.com/gigsterous/gigy-example/releases/tag/v2) instead.
