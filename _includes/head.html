@@ -10,11 +10,10 @@
   <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
   <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#424242">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
   {% assign custom_url = site.url | append: site.baseurl %}
   {% assign full_base_url = custom_url | default: site.github.url %}
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: full_base_url }}">
